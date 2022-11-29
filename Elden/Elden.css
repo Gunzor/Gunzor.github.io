@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+body{
+    background: rgb(52, 59, 41);
+}
+
+.bil{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.rodun{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.fontfyrir{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fontmegin{
+    font-family: 'Indie Flower', cursive;
+    color: gold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+.mynd1{
+    text-align: right;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.mynd2{
+    text-align: right;
+    margin: 10px;
+}
+
+.framt{
+    margin-left: 20px;
+}
+
+.not{
+    padding-right: 10px;
+}
+
+.video{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.litur{
+    color: antiquewhite;
+}
+
+.arrow{position: fixed;
+    right:50px; bottom: 50px;
+    background: gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-size: 2em;
+    text-align: center;
+    }
+
+    .innermenu{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-family: 'Rubik Glitch', cursive;
+    }
+
+    .efni{
+        text-align: center;
+    }
+
+    .fotur{display: grid;
+        grid-template-columns: 1fr;
+         max-width: 60%;
+          margin: 0 auto;}
+
+a{color:antiquewhite;}
+
+@media screen and (min-width:37.5em){
+    .rodun{display: grid;
+    grid-template-columns: 1fr 1fr;}
+    .innermenu{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .fotur{display: grid; grid-template-columns: 1fr 1fr 1fr;}}
